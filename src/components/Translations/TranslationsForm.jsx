@@ -1,9 +1,12 @@
 import { useState } from "react"
+import { AddTranslation } from "../../api/translation";
+import { useUser } from "../../context/UserContext";
 import TranslationsAction from "./TranslationsAction";
 
 const TranslationsForm = () => {
 
     const [ message, setMessage ] = useState()
+    const { user } = useUser()
 
     const [images, setImages] = useState()
 
@@ -11,13 +14,16 @@ const TranslationsForm = () => {
         setMessage(event.target.value);
     };
 
-    const handleClick = () => {
+    const handleClick = async () => {
         setImages(TranslationsAction(message))
-    }
 
-    /*const addImages = images.map((Element) => {
-        return  < TranslationsActionItem image={Element} />
-    })*/
+        //! Adding Translation to the translation list for the user. 
+        console.log('Translation is: ' + message);
+        const [error, result] = await AddTranslation(user, message)
+        console.log('Error: ', error)
+        console.log('Result: ', result)
+
+    }
 
     return (
         <div className="textCenter">
