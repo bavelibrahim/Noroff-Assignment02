@@ -45,13 +45,13 @@ const LoginForm = () => {
 
   return (
     <>
-      <h2>Please type in your name:</h2>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <h4 class="textCenter">Please type in your name:</h4>
+      <form class="center" onSubmit={handleSubmit(onSubmit)}>
         <fieldset>
           <label htmlFor="username">Username: </label>
           <input type="text" {...register("username", unConfig)}></input>
         </fieldset>
-        <button type="submit" disabled={ loading } >Continue</button>
+        <button class="center" type="submit" disabled={ loading } >Continue</button>
 
         { loading && <p>Logging in...</p>}
         { apiError && <p>{ apiError }</p>}

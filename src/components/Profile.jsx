@@ -10,10 +10,12 @@ const Profile = () => {
 
     return (
         <>
-            <h1>Profile Page</h1>
+            <div class="center">
+            <h1 class="textCenter">Profile Page</h1>
             <ProfileHeader username={ user.username } />
             <ProfileActions />
             <ProfileTranslationsHistory translations={user.translations}/>
+            </div>
         </>
     )
 }

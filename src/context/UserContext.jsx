@@ -12,10 +12,7 @@ const UserProvider = ( {children }) => {
 
     const [user, setUser ]= useState(storageRead(STORAGE_KEY_USER))
 
-    const state = {
-        user,
-        setUser
-    }
+    const state = { user, setUser }
 
     return (
         <UserContext.Provider value={state}>
