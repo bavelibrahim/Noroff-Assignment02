@@ -3,10 +3,10 @@
     <img src="SignLanguageLogo.png" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">Lost in Translation</h3>
 
   <p align="center">
-    Short description
+    Translate English words to Sign Language
     <br>
     <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
