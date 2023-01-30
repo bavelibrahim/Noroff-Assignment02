@@ -1,83 +1,71 @@
 <p align="center">
   <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+    <img src="SignLanguageLogo.png" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">Lost in Translation</h3>
 
   <p align="center">
-    Short description
-    <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-    ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+    Translate English words to Sign Language
   </p>
 </p>
 
 
 ## Table of contents
 
-- [Quick start](#quick-start)
-- [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
+- [About The Project](#about-the-project)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Tools Used](#tools-used)
+- [Installation](#installation)
 - [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
 
+## About The Project
 
-## Quick start
+Lost in Translation is a web application made by Pavel Ibrahim as the second assignment in the advanced Noroff Accelerate program at Noroff. The web application is able to translate english letters to sign language! Users and translations history will be stored in a api and updated based on activity from the user. The web application is developed with Reactjs. 
 
-Some text
+## Getting Started
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+Since the application is made with React and .NET it is necessary to download the required libraries and tools
 
-## Status
+### Prerequisites
 
-Here goes all the budgets
+You need to have the .NET framework installed. This can be installed through Microsofts official website: [Download .NET](https://dotnet.microsoft.com/en-us/)
 
-## What's included
+Earlier i mentioned that React was used in this project therefore we need the tools for installation and we also need to install the libraries. 
+To install React we need npm and Node.js, this can be done through here: [Download npm and Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Some text
+Lastly we need to install the React Libraries that were used in this project. These were installed through the command line.
 
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
+`npm install react`
+`npm install react-router-dom`
+`npm install react-hook-form`
+`npm install react-scripts`
+`npm install react-dom`
 
-## Bugs and feature requests
+### Tools Used
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+Tools that were used in this project:
 
-## Contributing
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [npm & Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [React](#prerequisites)
+- [Marktext (Editor)](https://github.com/marktext/marktext)
+- [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIxITDhrrv_AIVIwjmCh0xXw1eEAAYASAAEgKHW_D_BwE&gclsrc=aw.ds)
+- Better Comments (Visual Studio Code Extension)
+- Live Server (Visual Studio Code Extension) 
 
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+## Installation
 
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
+clone the repo like this:
+`git clone https://github.com/bavelibrahim/Noroff-Assignment02.git`
 
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+It is also possible to download the repo as a .zip.
 
 ## Creators
 
 **Creator 1**
 
-- <https://github.com/usernamecreator1>
+- <https://github.com/bavelibrahim>
 
-## Thanks
-
-Some Text
-
-## Copyright and license
-
-Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
-
-Enjoy :metal:
+In this project there were only one developer. 
