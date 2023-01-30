@@ -53,23 +53,12 @@ Tools that were used in this project:
 - [npm & Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [React](#prerequisites)
 - [Marktext (Editor)](https://github.com/marktext/marktext)
-- 
-
+- [Google Chrome](https://www.google.com/chrome/?brand=YTUH&gclid=EAIaIQobChMIxITDhrrv_AIVIwjmCh0xXw1eEAAYASAAEgKHW_D_BwE&gclsrc=aw.ds)
 
 ## Installation
 
-Some text
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
+You can test this web-application by cloning it or downloading the zip file. I recommend downloading the "Better Comments" extension if you use Visual Studio Code.
+`git clone https://github.com/bavelibrahim/Noroff-Assignment02.git`
 
 ## Contributing
 
