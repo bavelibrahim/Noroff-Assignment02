@@ -1,4 +1,4 @@
-<p>Lost in Translation - Pavel Ibrahim</p>
+<h1 class="atx" id="lost-in-translation">Lost in Translation</h1>
 <p>Lost in Translation is a web application made by Pavel Ibrahim as the second assignment in the advanced Noroff Accelerate program at Noroff.</p>
 <h2 class="atx" id="about-the-project">About the project</h2>
 <p>The web application is able to translate english letters to sign language! Users and translations history will be stored in a api and updated based on activity from the user.</p>
