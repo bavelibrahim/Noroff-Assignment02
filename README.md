@@ -1,4 +1,4 @@
-# Lost in Translation - Pavel Ibrahim
+`## Lost in Translation - Pavel Ibrahim
 
 Lost in Translation is a web application made by Pavel Ibrahim as the second assignment in the advanced Noroff Accelerate program at Noroff.
 
