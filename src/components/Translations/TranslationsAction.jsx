@@ -21,7 +21,7 @@ const TranslationsAction = (sentence) => {
     //! Checks if input is an english letter, if not push the path to the white image to the array
     characters.forEach(element => {
         if(englishLetters.test(element)){
-            arr.unshi(process.env.PUBLIC_URL + '/images/' + element + '.png')
+            arr.push(process.env.PUBLIC_URL + '/images/' + element + '.png')
         } else {
             arr.push(process.env.PUBLIC_URL + '/images/white.png')
         }
