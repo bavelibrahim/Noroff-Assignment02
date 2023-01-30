@@ -1,18 +1,83 @@
-<h1 class="atx" id="lost-in-translation">Lost in Translation</h1>
-<p>Lost in Translation is a web application made by Pavel Ibrahim as the second assignment in the advanced Noroff Accelerate program at Noroff.</p>
-<h2 class="atx" id="about-the-project">About the project</h2>
-<p>The web application is able to translate english letters to sign language! Users and translations history will be stored in a api and updated based on activity from the user.</p>
-<h4 class="atx" id="getting-started">Getting Started</h4>
-<h6 class="atx" id="prerequisites">Prerequisites</h6>
-<p>You need to have the .NET framework installed on your machine. This can be installed through the official website of Microsoft.</p>
-<p>Download .NET</p>
-<h6 class="atx" id="npm-and-nodejs">npm and Node.js</h6>
-<p>React libraries are part of this web application, therefore it is important to make sure that npm and Node.js are installed. To download the latest version of npm, on the command line, run this command</p>
-<p><code>npm install -g npm</code></p>
-<h6 class="atx" id="react-libraries">React Libraries</h6>
-<p>React is used in this web application, therefore it is necessary to download these libraries. These are the commands that will be necessary to run:</p>
-<p><code>npm install react</code></p>
-<p><code>npm install react-router-dom</code></p>
-<p><code>npm install react-hook-form</code></p>
-<p><code>npm install react-scripts</code></p>
-<p><code>npm install react-dom</code></p>
+<p align="center">
+  <a href="https://example.com/">
+    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+  </a>
+
+  <h3 align="center">Logo</h3>
+
+  <p align="center">
+    Short description
+    <br>
+    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
+    ·
+    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+  </p>
+</p>
+
+
+## Table of contents
+
+- [Quick start](#quick-start)
+- [Status](#status)
+- [What's included](#whats-included)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contributing](#contributing)
+- [Creators](#creators)
+- [Thanks](#thanks)
+- [Copyright and license](#copyright-and-license)
+
+
+## Quick start
+
+Some text
+
+- Instruction 1
+- Instruction 2
+- Instruction 3
+
+## Status
+
+Here goes all the budgets
+
+## What's included
+
+Some text
+
+```text
+folder1/
+└── folder2/
+    ├── folder3/
+    │   ├── file1
+    │   └── file2
+    └── folder4/
+        ├── file3
+        └── file4
+```
+
+## Bugs and feature requests
+
+Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+
+## Contributing
+
+Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
+
+Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+
+## Creators
+
+**Creator 1**
+
+- <https://github.com/usernamecreator1>
+
+## Thanks
+
+Some Text
+
+## Copyright and license
+
+Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+
+Enjoy :metal:
