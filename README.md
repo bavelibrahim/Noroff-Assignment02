@@ -7,17 +7,13 @@
 
   <p align="center">
     Translate English words to Sign Language
-    <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-    ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
 
 
 ## Table of contents
 
-- [Quick start](#quick-start)
+- [About The Project](#about-the-project)
 - [Status](#status)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
@@ -27,7 +23,7 @@
 - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
+## About The Project
 
 Some text
 
