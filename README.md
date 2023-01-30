@@ -18,12 +18,9 @@
 - [Prerequisites](#prerequisites)
 - [Tools Used](#tools-used)
 - [Installation](#installation)
-- [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
-
 
 ## About The Project
 
@@ -34,6 +31,9 @@ Lost in Translation is a web application made by Pavel Ibrahim as the second ass
 Since the application is made with React and .NET it is necessary to download the required libraries and tools
 
 ### Prerequisites
+
+You need to have the .NET framework installed. This can be installed through Microsofts official website:
+[Download .NET](https://dotnet.microsoft.com/en-us/)
 
 ### Tools Used
 
@@ -51,10 +51,6 @@ folder1/
         ├── file3
         └── file4
 ```
-
-## Tools Used
-
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
 
 ## Contributing
 
