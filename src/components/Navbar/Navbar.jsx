@@ -6,16 +6,13 @@ const Navbar = () => {
     const { user } = useUser()
     
     return (
-        <nav>
+        <nav className="textCenter">
             { user !== null && 
-                <ul>
-                    <li>
-                        <NavLink to="/translations">Translations</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/profile">Profile</NavLink>
-                    </li>
-                </ul>
+            <>
+                <p>  { "Logged in as: " + user.username}</p>
+                <NavLink to="/translations" className="navMargin">Translations </NavLink>
+                <NavLink to="/profile" className="navMargin">Profile</NavLink>
+            </>
             }
 
         </nav>

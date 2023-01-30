@@ -56,6 +56,7 @@ const LoginForm = () => {
 
         { loading && <p>Logging in...</p>}
         { apiError && <p>{ apiError }</p>}
+        
       </form>
       <div className="centered">
       <img className="gifScale" src={process.env.PUBLIC_URL + '/images/pikachuWave.gif'} alt="Pikachu is Waving"/>

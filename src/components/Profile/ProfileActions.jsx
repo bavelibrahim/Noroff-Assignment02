@@ -38,11 +38,11 @@ const ProfileActions = () => {
     }
     
     return (
-        <ul class="center">
-            <li><Link to="/translations">Translations</Link></li>
-            <li><button onClick={handleClearTranslations} >Clear Translations</button></li>
-            <li><button onClick={handleLogoutClick}>Log Out</button></li>
-        </ul>
+        <div class="textCenter">
+            <button class="button-24" onClick={handleClearTranslations}>Clear Translations</button>
+            <p></p>
+            <button class="button-24" onClick={handleLogoutClick}>Log Out</button>
+        </div>
     )
 }
 

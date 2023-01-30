@@ -27,7 +27,7 @@ const TranslationsForm = () => {
         if (error !== null) {
             return
         }
-        
+
         //! Server state and state for the UI will be in sync
         storageSave(STORAGE_KEY_USER, updatedUser )
 
@@ -39,15 +39,15 @@ const TranslationsForm = () => {
     }
 
     return (
-        <div ><div className="textCenter">
-            <input
+        <div><div className="textCenter">
+            <input className="center"
             type="text"
             id="inputField"
             name="Type here...."
             onChange={handleChange}
             ></input>
             
-            <button onClick={ handleClick }>Translate</button>
+            <button className="button-7" onClick={ handleClick }>Translate</button>
             </div>
             <p></p>
             <div className="textCenter">

@@ -12,14 +12,18 @@ import ProfileTranslationsHistory from "./Profile/ProfileTranslationsHistory"
 const Profile = () => {
 
     const { user } = useUser()
+    
+    console.log("This is the translationslist: " + user.translations);
 
     return (
         <>
-            <div class="center">
+            <div class="textCenter">
             <h1 class="textCenter">Profile Page</h1>
             <ProfileHeader username={ user.username } />
             <ProfileActions />
+            <div className="translationBox">
             <ProfileTranslationsHistory translations={user.translations}/>
+            </div>
             </div>
         </>
     )
