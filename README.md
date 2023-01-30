@@ -47,6 +47,15 @@ Lastly we need to install the React Libraries that were used in this project. Th
 
 ### Tools Used
 
+Tools that were used in this project:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [npm & Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [React](#prerequisites)
+- [Marktext (Editor)](https://github.com/marktext/marktext)
+- 
+
+
 ## Installation
 
 Some text
