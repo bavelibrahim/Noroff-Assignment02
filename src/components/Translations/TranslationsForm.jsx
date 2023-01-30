@@ -1,12 +1,14 @@
 import { useState } from "react"
 import { AddTranslation } from "../../api/translation";
+import { STORAGE_KEY_USER } from "../../const/storageKeys";
 import { useUser } from "../../context/UserContext";
+import { storageSave } from "../../utils/storage";
 import TranslationsAction from "./TranslationsAction";
 
 const TranslationsForm = () => {
 
     const [ message, setMessage ] = useState()
-    const { user } = useUser()
+    const { user, setUser} = useUser()
 
     const [images, setImages] = useState()
 
@@ -17,26 +19,41 @@ const TranslationsForm = () => {
     const handleClick = async () => {
         setImages(TranslationsAction(message))
 
-        //! Adding Translation to the translation list for the user. 
         console.log('Translation is: ' + message);
-        const [error, result] = await AddTranslation(user, message)
-        console.log('Error: ', error)
-        console.log('Result: ', result)
 
+        //! Adding Translation to the translation list for the user. 
+        const [error, updatedUser] = await AddTranslation(user, message)
+
+        if (error !== null) {
+            return
+        }
+
+        //! Server state and state for the UI will be in sync
+        storageSave(STORAGE_KEY_USER, updatedUser )
+
+        //! Updating context state
+        setUser(updatedUser)
+
+        console.log('Error: ', error)
+        console.log('Updated user Result: ', updatedUser)
     }
 
     return (
-        <div className="textCenter">
+        <div ><div className="textCenter">
             <input
             type="text"
             id="inputField"
             name="Type here...."
             onChange={handleChange}
             ></input>
+            
             <button onClick={ handleClick }>Translate</button>
+            </div>
             <p></p>
-            <p className="textCenter">You have typed:</p>
-            <p>{message}</p>
+            <div className="textCenter">
+                <p>You have typed:</p>
+                <p>{message}</p>
+            </div>
             <h3 className="textCenter">Translation below:</h3>
             <div className="translationBox">
             {images}

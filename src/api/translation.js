@@ -11,7 +11,7 @@ export const AddTranslation = async ( user, translation) => {
                 translations: [...user.translations, translation]
             })
         })
-
+        
         if (!response.ok) {
             throw new Error('Could not add or update the Translation list')
         }
@@ -24,6 +24,24 @@ export const AddTranslation = async ( user, translation) => {
     }
 }
 
-export const removeTranslation = (userId) => {
+export const removeTranslation = async (userId) => {
+    try {
+        const response = await fetch(`${apiURL}/${userId}`, {
+            method: 'PATCH',
+            headers: createHeaders(),
+            body: JSON.stringify({
+                translations: []
+            }) 
+        })
 
+        if (!response.ok) {
+            throw new Error('Not able to update the translations')
+        }
+
+        const result = await response.json()
+        return [ null, result]
+        
+    } catch (error) {
+        return [error.message, null]
+    }
 }

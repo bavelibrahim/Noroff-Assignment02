@@ -27,8 +27,8 @@ const TranslationsAction = (sentence) => {
         }
     });
 
-    console.log(characters) //! Only for testing..
-    console.log(arr)
+    //console.log(characters) //! Only for testing..
+    //console.log(arr)
     
     let addImages = arr.map((Element) => {
         return  < TranslationsActionItem image={Element} />
