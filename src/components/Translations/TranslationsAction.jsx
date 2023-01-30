@@ -1,4 +1,3 @@
-
 import TranslationsActionItem from "./TranslationsActionItem"
 
 let arr = []
@@ -26,6 +25,9 @@ const TranslationsAction = (sentence) => {
             arr.push(process.env.PUBLIC_URL + '/images/white.png')
         }
     });
+
+    //console.log(characters) //! Only for testing..
+    //console.log(arr)
     
     let addImages = arr.map((Element) => {
         return  < TranslationsActionItem image={Element} />

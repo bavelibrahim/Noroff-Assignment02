@@ -13,7 +13,7 @@ const Profile = () => {
 
     const { user } = useUser()
     
-    console.log("This is the translationslist: " + user.translations);
+    console.log("This is the translationslist:" + user.translations);
 
     return (
         <>
