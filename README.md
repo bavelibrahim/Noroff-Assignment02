@@ -14,8 +14,10 @@
 ## Table of contents
 
 - [About The Project](#about-the-project)
-- [Status](#status)
-- [What's included](#whats-included)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Tools Used](#tools-used)
+- [Installation](#installation)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Creators](#creators)
@@ -25,17 +27,17 @@
 
 ## About The Project
 
-Some text
+Lost in Translation is a web application made by Pavel Ibrahim as the second assignment in the advanced Noroff Accelerate program at Noroff. The web application is able to translate english letters to sign language! Users and translations history will be stored in a api and updated based on activity from the user. The web application is developed with Reactjs. 
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+## Getting Started
 
-## Status
+Since the application is made with React and .NET it is necessary to download the required libraries and tools
 
-Here goes all the budgets
+### Prerequisites
 
-## What's included
+### Tools Used
+
+## Installation
 
 Some text
 
@@ -50,7 +52,7 @@ folder1/
         └── file4
 ```
 
-## Bugs and feature requests
+## Tools Used
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
 
