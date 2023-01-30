@@ -11,7 +11,7 @@ const Navbar = () => {
             <>
                 <p>  { "Logged in as: " + user.username}</p>
                 <NavLink to="/translations" className="navMargin">Translations </NavLink>
-                <NavLink to="/p rofile" className="navMargin">Profile</NavLink>
+                <NavLink to="/profile" className="navMargin">Profile</NavLink>
             </>
             }
 
