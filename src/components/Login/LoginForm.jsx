@@ -44,18 +44,23 @@ const LoginForm = () => {
   };
 
   return (
-    <>
-      <h4 class="textCenter">Please type in your name:</h4>
-      <form class="center" onSubmit={handleSubmit(onSubmit)}>
-        <fieldset>
+    <> <div>
+      <h4 class="textCenter">To Login, Please type in your name:</h4>
+      <form class="textCenter" onSubmit={handleSubmit(onSubmit)}>
+        <div>
           <label htmlFor="username">Username: </label>
           <input type="text" {...register("username", unConfig)}></input>
-        </fieldset>
-        <button class="center" type="submit" disabled={ loading } >Continue</button>
+        </div>
+        <p></p>
+        <button class="button-24" type="submit" disabled={ loading } >Continue</button>
 
         { loading && <p>Logging in...</p>}
         { apiError && <p>{ apiError }</p>}
       </form>
+      <div className="centered">
+      <img className="gifScale" src={process.env.PUBLIC_URL + '/images/pikachuWave.gif'} alt="Pikachu is Waving"/>
+      </div>
+      </div>
     </>
   );
 };

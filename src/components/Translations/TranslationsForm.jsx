@@ -27,7 +27,7 @@ const TranslationsForm = () => {
         if (error !== null) {
             return
         }
-
+        
         //! Server state and state for the UI will be in sync
         storageSave(STORAGE_KEY_USER, updatedUser )
 

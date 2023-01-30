@@ -11,17 +11,7 @@ import ProfileTranslationsHistory from "./Profile/ProfileTranslationsHistory"
 
 const Profile = () => {
 
-    const { user, setUser } = useUser()
-
-    useEffect (() => {
-        const findUser = async () => {
-            const [ error, latestUser ] = await userById(user.id)
-            if (error === null) {
-                storageSave(STORAGE_KEY_USER, latestUser)
-                setUser(latestUser)
-            }
-        }
-    }, [ setUser, user.id ])
+    const { user } = useUser()
 
     return (
         <>
